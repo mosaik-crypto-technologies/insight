@@ -6,7 +6,7 @@ angular.module('insight.system').controller('HeaderController',
 
     $rootScope.currency = {
       factor: 1,
-      bitstamp: 0,
+      cmc: 0,
       symbol: 'IOP'
     };
 
