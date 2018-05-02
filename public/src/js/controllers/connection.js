@@ -23,8 +23,8 @@ angular.module('insight.connection').controller('ConnectionController',
       PeerSync.get({},
         function(peer) {
           $scope.apiOnline = peer.connected;
-          $scope.host = "test" // peer.host;
-          $scope.port = "test" // peer.port;
+          $scope.host = peer.host;
+          $scope.port = peer.port;
         },
         function() {
           $scope.apiOnline = false;

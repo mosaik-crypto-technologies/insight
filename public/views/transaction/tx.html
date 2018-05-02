@@ -34,7 +34,7 @@
       <div data-ng-if="!itemsExpanded" data-ng-init="currentInNoExpanded=0; sizeInNoExpanded=5">
         <div class="panel panel-default" data-ng-repeat="vin in tx.vinSimple| startFrom:currentInNoExpanded*sizeInNoExpanded | limitTo:sizeInNoExpanded">
           <div class="panel-body transaction-vin-vout">
-            <div class="pull-right IOP-value" data-ng-class="{'text-danger': $root.currentAddr == vin.addr}">
+            <div class="pull-right btc-value" data-ng-class="{'text-danger': $root.currentAddr == vin.addr}">
               {{$root.currency.getConvertion(vin.value) || vin.value + ' IOP'}}
             </div>
             <div class="ellipsis">
