@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 /* Styling for the ngProgress itself */
 #ngProgress {
-  background-color: rgb(31, 92, 150) !important;
+  background-color: rgb(9, 139, 8) !important;
   box-shadow: none !important;
   color: #373D42 !important;
   height: 3px !important;
@@ -103,11 +103,11 @@ margin-left: 0;
 }
 
 .table-hover>tbody>tr:hover>td, .table-hover>tbody>tr:hover>th {
-  background-color: #F0F7E2;
+  background-color: #addcf0;
 }
 .navbar { min-height: 64px; }
 .navbar-default .navbar-toggle { 
-  border-color: #fff;
+  border-color: #4f91ad;
   margin-top: 15px;
 }
 
@@ -115,7 +115,6 @@ margin-left: 0;
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: #373D42;}
 
 .navbar-default {
-  /* background-color: #8DC429; */
   background: linear-gradient(to right, #6cc8f0, #0cafa5);
   margin: 0;
   border: 0;
@@ -129,7 +128,7 @@ margin-left: 0;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus {
-  background-color: #6C9032;
+  background-color: #353535;
   color: #fff;
 }
 
