@@ -8,6 +8,11 @@
         <span class="icon-bar"></span>
       </button>
       <a class="insight navbar-brand" href=".">IOP Testnet</a>
+      <div data-ng-controller="SimpleController">
+        <div data-ng-init="getSimple()">
+          {{simple.value}}
+        </div>
+      </div>
     </div>
     <div class="navbar-collapse collapse" collapse="$root.isCollapsed">
       <ul class="nav navbar-nav">
