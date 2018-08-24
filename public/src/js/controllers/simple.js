@@ -5,8 +5,8 @@ angular.module('insight.simple').controller('SimpleController',
 
     $scope.getSimple = function() {
       Simple.get({},
-      function(d) {
-        $scope.simple = {value: 50};
+      function(result) {
+        $scope.simple = {value: result.value};
       },
       function(e) {
         $scope.simple = {value: 40};
