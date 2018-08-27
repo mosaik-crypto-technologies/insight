@@ -16,6 +16,15 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: 'Ubuntu', sans-serif;
 }
 
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak],
 .ng-cloak, .x-ng-cloak,
 .ng-hide {
@@ -224,6 +233,7 @@ margin-left: 0;
   color: #eee;
   text-align: center;
   margin-right: 10px;
+  height: 35px
 }
 
 .status .tooltip {
@@ -846,7 +856,7 @@ a.v_highlight_more {
     width: 280px;
   }
   .navbar-form .form-control {
-    width: 350px;
+    width: 300px;
   }
 }
 
